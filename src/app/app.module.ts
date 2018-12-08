@@ -4,12 +4,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
 import { PostService } from './services/post.service';
+import { GithubFollowersComponent } from './github-followers/github-followers.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostComponent
+    PostComponent,
+    GithubFollowersComponent
   ],
   imports: [
     BrowserModule,
